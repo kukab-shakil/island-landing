@@ -3,6 +3,8 @@ import {makeStyles} from '@material-ui/core/styles';
 import { CssBaseline } from '@material-ui/core';
 import Header from './header';
 import PlaceToVisit from './placeToVisit';
+import Footer from './footer';
+
 const useStyles = makeStyles((theme)=>({
     root:{
         minHeight: '100vh',
@@ -18,6 +20,7 @@ function Landing() {
           <CssBaseline />
           <Header/>
           <PlaceToVisit/>
+          <Footer/>
          
         </div>
       );
